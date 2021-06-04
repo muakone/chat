@@ -1,0 +1,237 @@
+#contentwrapper {
+    width: 100%;
+    display: flex;
+    margin-left: 0;
+    margin-top: 0;
+}
+#grad1 {
+    width: 350px;
+    height: 500px;
+    background-image: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    border-bottom-left-radius:45%;
+    border-bottom-right-radius: 45%;
+    margin-left: -30px;
+    margin-top: -8px;
+    position: relative;
+    z-index: 4;
+}
+
+
+
+#container {
+    width: 250px;
+    height: 490px;
+    padding: 4px;
+    border: hsl(0, 0%, 100%) solid 1px;
+    box-shadow: hsl(270, 7%, 64%) 10px 10px 10px;
+    border-radius: 25px;
+    position: relative;
+    left: -6em;
+    top: 2.5em;
+    z-index: 5;
+} 
+
+
+#phone {
+    width: 245px;
+    height: 485px;
+    border: whitesmoke solid 1px;
+    background: hsl(270, 20%, 96%);
+    border-radius: 30px;
+    position: relative;
+    
+}
+
+
+#tab {
+    background-color: hsl(293, 100%, 63%); 
+    background-image: linear-gradient(to right,hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+    height: 50px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    
+}
+
+#block {
+    width: 110px;
+    background-color: hsl(0, 0%, 100%);
+    height: 25px;
+    margin-left: 70px;
+    position: relative;
+    top: -8px;
+    border-radius: 50px;
+    
+}
+
+.header {
+    display: flex;
+    color: hsl(0, 0%, 100%);
+}
+
+.avatar {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-left: 25px;
+    margin-top: -6px;
+}
+
+p {
+    width: 13em;
+    height: 50px;
+    margin-right: 20px;
+}
+h4 {
+    width: 4em;
+    font-size: 12px;
+    display: flex;
+    white-space: nowrap;
+    padding-right: -5em;
+    position: relative;
+    bottom: 19px;
+    right: 15px;
+}
+span {
+    font-size: 10px;
+    white-space: nowrap;
+    position: relative;
+    top: 10px;
+    right: 65px;
+    color: hsl(276, 100%, 81%);
+}
+
+.leftcolumn {
+    width: 12em;
+    background-color: hsl(206, 6%, 79%);
+    color: hsl(276, 55%, 52%);
+    font-size: small;
+    margin: 7px 0 2px 4px;
+    border-radius: 6px;
+    padding: 4px;
+}
+
+.img {
+    width: 50px;
+    border-radius: 15px;
+    float: right;
+    padding: 4px;
+    margin-top: 1rem;
+}
+
+.rightcolumn {
+    width: 12em;
+    height: 30px;
+    color: hsl(271, 15%, 43%);
+    background-color: hsl(0, 0%, 100%);
+    float: right;
+    font-size: small;
+    border-radius: 10px;
+    margin-top: .4rem;
+    padding: 5px;
+    margin-right: 4px;
+}
+
+#r1 {
+    width: 8em;
+    height: 20px;
+}
+
+#l1 {
+    margin-top: 170px;
+    
+}
+
+.leftcolor {
+    width: 12.6em;
+    height: 2.5em;
+    background-image: linear-gradient(to left,hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+    border-top-left-radius: 8px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: small;
+    color: hsl(0, 0%, 100%);
+    margin: 6px 0 6px 4px;
+    display: flex;
+}
+
+.radio {
+    opacity: .3;
+    position: relative;
+    top: 7px;
+    color: hsl(289, 100%, 72%);
+}
+
+h6 {
+    position: relative;
+    bottom: 30px;
+    left: 30px;
+}
+
+h3 {
+    position: relative;
+    bottom: 4em;
+    left: 120px;
+    font-size: 16px;
+}
+.placeholder {
+    width: auto;
+    height: 30px;
+    background: hsl(0, 0%, 100%);
+    border-radius: 50px;
+    margin: 8px 8px 3px 6px ;
+    
+}
+
+#text {
+    color: hsl(206, 6%, 79%);
+    font-size: small;
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 9px;
+}
+
+.submit {
+   height: 25px;
+   width: 25px;
+   background-color: hsl(271, 36%, 24%); 
+   float: right;
+   position: relative;
+   bottom: 30px;
+   right: 12px;
+   border-radius: 50%;
+}
+
+.center {
+    width: 500px;
+    margin-top: 200px;
+    margin-left: -10px;
+    letter-spacing: 2px;
+    z-index: 7;
+}
+
+h5 {
+    width: 440px;
+    font-size: small;
+    color: hsl(270, 7%, 64%);
+}
+h1 {
+    color: hsl(271, 36%, 24%);
+}
+#grad2 {
+    width: 350px;
+    height: 500px;
+    background-image: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    border-top-left-radius: 45%;
+    border-top-right-radius: 45%;
+    margin-left: 0px;
+    margin-top: 60px;
+    position: relative;
+    left: 50px;
+    opacity: .05;
+    z-index: 1;
+    overflow: hidden;
+}
+
+
+
+ 
