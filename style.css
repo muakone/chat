@@ -27,6 +27,7 @@
     z-index: 5;
     margin-left: -70px;
     margin-top: 50px;
+    position: relative;
 } 
 
 
@@ -231,6 +232,52 @@ h1 {
     opacity: .05;
     z-index: 1;
     overflow: hidden;
+}
+
+@media (max-width: 600px) {
+    .contentwrapper {
+        display: block;
+    }
+
+    #grad1 {
+        margin-left: -100px;
+        border-bottom-right-radius: 65%;
+    }
+    .texts {
+        text-align: center;
+    }
+    .center {
+        width: 300px;
+        position: absolute;
+        display: block;
+        top: 400px;
+        right: 30px;
+    }
+
+    h5 {
+        width: 320px;
+        line-height: 23px;
+    }
+
+    h1 {
+        text-align: center;
+        margin-left: 20px;
+    }
+
+    #grad2 {
+        width: 280px;
+        height: 450px;
+        display: block;
+        position: absolute;
+        top: 350px;
+        left: 100px;
+        margin-right: -20px;
+        
+    }
+
+    .attribution {
+        margin-top: 270px;
+    }
 }
 
 
